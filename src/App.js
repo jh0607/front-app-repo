@@ -26,7 +26,7 @@ function App(props) {
       }
     }
     fetchData();
-  }, [search]);
+  }, [search, url]);
 
   return (
     <Box sx={{ flexGrow: 1, p: 2 }}>
